@@ -15,3 +15,15 @@ To build your own tag reader, you need the following components:
 # Connecting the components
 
 ![Photo of Wiring](tagreaderwiring.png)
+
+Make sure that you have set the switches on the PN532 to the following:
+- Switch 1: On (up)
+- Switch 2: Off (down)
+
+This enables the PN532 module to communicate with the D1 over I2C, and is required for the modules to work together!
+
+To flash the reader firmware to your D1 Mini you point ESPHome at tagreader.yaml.
+
+    ⚠️ The tag reader requires ESPHome 1.16.0.
+
+If you're new to ESPHome, we recommend that you use the ESPHome Home Assistant add-on.
