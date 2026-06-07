@@ -20,7 +20,7 @@ substitutions:
   friendly_name: TagReader
 
 esp8266:
-  board: d1_min
+  board: d1_mini
 
 esphome:
   name: $name
